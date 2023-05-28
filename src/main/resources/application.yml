@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: restservice
+    router:
+        static-resources:
+            default:
+                enabled: true
+                paths: classpath:public
+                mapping: /**
+
